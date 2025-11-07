@@ -1,0 +1,91 @@
+ body {
+        background-image: url('images/background.png'); 
+        background-size: cover;       
+        background-position: center;  
+        background-repeat: no-repeat; 
+        color: black;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+       .container {
+        text-align: center;
+      }
+      .title {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .move-icon {
+        background-color: transparent;
+        border:3px solid white;
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        object-fit: cover;
+      }
+      .player-move-icon {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        object-fit: cover;
+      }
+      .move-button {
+    background-color: transparent;
+    border: none;
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  .result {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .score {
+        margin-top: 60px;
+      }
+      /* .reset-button {
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 15px;
+        padding: 8px 15px;
+        cursor: pointer;
+      } */
+   
+     .reset-button {
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color:#26d8f0;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.reset-button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.reset-button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
