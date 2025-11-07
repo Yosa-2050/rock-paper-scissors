@@ -89,3 +89,30 @@
   transform: translateY(10px);
   transition: 100ms;
 }
+
+
+@media (max-width: 600px) {
+  .move-button {
+    width: 90px;
+    height: 90px;
+  }
+
+  .move-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+  }
+
+  .player-move-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .result {
+    font-size: 20px;
+  }
+}
